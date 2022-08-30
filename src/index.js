@@ -7,7 +7,7 @@ const __dirname = path.resolve();
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", (request, response) => {
-    return response.json({ message: "Hello World!" });
+    return response.sendFile(path.join(__dirname, "src/views/index.html"));
 });
 
 app.listen(3333, () => {
