@@ -1,10 +1,10 @@
-# Project Name
+# Lovt
 
 This is a solution to the **Lovt Project**. 
 
 ## Table of contents
 
-- [Project Name](#project-name)
+- [Lovt](#lovt)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -64,6 +64,15 @@ $ git clone git@github.com:danilo-batista/dhLovt.git
 
 # Access the project folder on your computer via terminal or code editor
 $ cd dhLovt
+
+# Install the project dependencies
+$ npm install
+
+# Execute the application
+$ npm run dev
+
+# The server will start at port 3333
+Access the address: http://localhost:3333/
 
 ```
 
