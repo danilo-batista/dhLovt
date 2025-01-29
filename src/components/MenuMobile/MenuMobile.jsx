@@ -14,7 +14,7 @@ export const MenuMobile = () => {
     
     return (
         <>
-        <nav className={styles.headerMenuMobile} >
+        <nav ref={ref} className={styles.headerMenuMobile} >
 
             <Hamburger
                 toggled={isOpen}
@@ -25,7 +25,7 @@ export const MenuMobile = () => {
             />
 
             { isOpen && (
-                <div ref={ref} className={styles.headerMenuOptions}>
+                <div className={styles.headerMenuOptions}>
                     <ul className={styles.headerMenuListOption}>
                         {routes.map((route) => {
                             return (
