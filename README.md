@@ -21,8 +21,8 @@ Obs: para fins de treinamento, será acrescentado o React.js para o desenvolvime
 - [ ] Deverá ter uma versão tablet;
 - [ ] Deverá ter uma versão desktop;
 - [ ] Deverá usar media queries;
-- [ ] Deverá ter um 'hamburger menu' na versão mobile/tablet;
-- [ ] Deverá ter um menu com três links na versão desktop;
+- [x] Deverá ter um 'hamburger menu' na versão mobile/tablet;
+- [x] Deverá ter um menu com três links na versão desktop;
 
 <br>
 

@@ -1,0 +1,22 @@
+.headerMenu {
+    .headerMenuOptions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        list-style-type: none;
+    }
+
+    .headerMenuListOptionLink {
+        text-decoration: none;
+        color: #AAA;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .headerMenu {
+        display: none;
+    }
+}

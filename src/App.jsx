@@ -1,7 +1,13 @@
+import { Header } from "./components/Header/Header"
+
+import "./styles/normalize.css";
+import "./styles/reset.css";
+import "./styles/global.scss";
+
 function App() {
   return (
     <>
-      <h1>Lovt | Your Love, your loft!</h1>
+      <Header />
     </>
   )
 }
